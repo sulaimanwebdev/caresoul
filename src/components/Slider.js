@@ -40,7 +40,7 @@ const Slider = (props) => {
       <div ref={navigationNextRef} className='flex items-center justify-center w-[45px] h-[45px] bg-purple-500 rounded-full transition hover:bg-purple-600 cursor-pointer'><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 7.50005L6.808 2.13605L8.222 0.722046L16 8.50005L8.222 16.278L6.808 14.864L12.172 9.50005H0V7.50005H12.172Z" fill="white"/></svg></div>
     </div> */}
 
-    <input type="text" placeholder='Search' className='w-[400px] bg-white px-2 py-2 rounded-md border-solid border border-purple-300 outline-none' />
+    <input type="text" placeholder='Search' className='w-full sm:w-[400px] bg-white px-2 py-2 rounded-md border-solid border border-purple-300 outline-purple-500' />
    </div>
 
    
