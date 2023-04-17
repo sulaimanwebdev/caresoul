@@ -1,25 +1,199 @@
-import logo from './logo.svg';
-import './App.css';
+import Slider from "./components/Slider";
 
-function App() {
+export default function App() {
+  
+  let data = [
+    {
+      id: 1,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Movies"
+    },
+
+    {
+      id: 2,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Movies"
+    },
+
+    {
+      id: 3,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Movies"
+    },
+
+    {
+      id: 4,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Movies"
+    },
+
+
+    {
+      id: 6,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Series"
+    },
+
+    {
+      id: 7,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Series"
+    },
+
+    {
+      id: 8,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Series"
+    },
+
+    {
+      id: 9,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Series"
+    },
+
+    {
+      id: 11,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Music"
+    },
+
+    {
+      id: 12,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Music"
+    },
+
+    {
+      id: 13,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Music"
+    },
+
+    {
+      id: 14,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Music"
+    },
+
+
+
+    {
+      id: 16,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Books"
+    },
+
+    {
+      id: 17,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Books"
+    },
+
+    {
+      id: 18,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Books"
+    },
+
+    {
+      id: 19,
+      image: "/images/cover.webp",
+      text: "Batman",
+      description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+      video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+      link: "#",
+      category: "Books"
+    },
+
+   
+  ];
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div className="pl-[70px]">
+     <div className="fixed top-0 left-0 w-[70px] flex items-center justify-center flex-col gap-5 py-3 px-2 bg-white border-solid border-r border-gray-200 min-h-screen max-h-screen overflow-y-auto">
+      <button className="w-[50px] h-[50px] bg-purple-500 transition hover:bg-purple-600 rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" className="bi bi-person-fill" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/></svg></button>
+      <button className="w-[50px] h-[50px] bg-purple-500 transition hover:bg-purple-600 rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" className="bi bi-gear-fill" viewBox="0 0 16 16"><path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/></svg></button>
+      <button className="w-[50px] h-[50px] bg-purple-500 transition hover:bg-purple-600 rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" className="bi bi-award-fill" viewBox="0 0 16 16"><path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/><path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/></svg></button>
+     </div>
 
-export default App;
+     <div className="w-full p-5">
+
+       <Slider title="Movies" data={data}/>
+
+       <div className="mt-14">
+       <Slider title="Series" data={data}/>
+       </div>
+
+       <div className="mt-14">
+       <Slider title="Music" data={data}/>
+       </div>
+
+       <div className="mt-14">
+       <Slider title="Books" data={data}/>
+       </div>
+
+     </div>
+    </div>
+  )
+}
