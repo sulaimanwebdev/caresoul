@@ -1,6 +1,13 @@
+import {useEffect} from 'react';
 import Slider from "./components/Slider";
 
+const tele = window.Telegram.WebApp;
+
 export default function App() {
+  
+  useEffect(() => {
+    tele.ready();
+  });
   
   let data = [
     {
