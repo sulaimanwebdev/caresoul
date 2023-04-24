@@ -34,9 +34,9 @@ const Slider = (props) => {
   return (
     <>
    {
-    props.data2.map((ele)=>{
+    props.data2.map((ele, index)=>{
       return(
-        <>
+        <div key={index}>
 
 <div className="flex items-center justify-between gap-6 py-4">
    <div className='font-bold text-[30px]'>{ele.name}</div>
@@ -102,15 +102,16 @@ const Slider = (props) => {
 
               
                       {
-                        ele.mainData.map((ele2)=>{
+                        ele.mainData.map((ele2, index)=>{
                           return(
-                            <>
+                            <div key={index}>
                             <SwiperSlide
+                            
                       className='transition rounded-lg block'
                     >
                       <div>
                         <button className='w-full'>
-                            <img src={ele2.image} className='grayscale select-none h-[27vh] w-full object-cover object-bottom rounded-[14px]' alt="cover" />
+                            <img src={ele2.image} className='grayscale select-none h-[30vh] w-full object-cover object-bottom rounded-[14px]' alt="cover" />
                             <div className="flex items-center justify-between gap-2 mt-2 ">
                             <div className='font-[500] text-[19px] leading-[36px] uppercase'>{ele2.text}</div>
                             <div className=''><svg width="15" height="14" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.3389 4.552L2.86287 16.028L0.977539 14.1427L12.4522 2.66667H2.33887V0H17.0055V14.6667H14.3389V4.552Z" fill="black"/></svg></div>
@@ -123,7 +124,7 @@ const Slider = (props) => {
               
 
               </SwiperSlide>
-                            </>
+                            </div>
                           )
                         })
                       }
@@ -133,7 +134,7 @@ const Slider = (props) => {
 
 
         </Swiper>
-        </>
+        </div>
       )
     })
    }

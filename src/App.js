@@ -645,7 +645,7 @@ export default function App() {
      <div className="w-full px-5 pb-5">
      <input type="text" placeholder='Search' className='flex items-center justify-center mx-auto max-w-full sm:max-w-[400px] w-full mt-3 bg-white px-2 py-2 rounded-md border-solid border border-blue-300 outline-blue-500' />
 
-       <Slider  data2={data2}/>
+       <Slider data2={data2}/>
 
        
 
