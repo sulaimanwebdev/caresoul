@@ -16,7 +16,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Movies"
     },
 
@@ -26,7 +26,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Movies"
     },
 
@@ -36,7 +36,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Movies"
     },
 
@@ -46,7 +46,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Movies"
     },
 
@@ -57,7 +57,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Series"
     },
 
@@ -67,7 +67,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Series"
     },
 
@@ -77,7 +77,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Series"
     },
 
@@ -87,7 +87,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Series"
     },
 
@@ -97,7 +97,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Music"
     },
 
@@ -107,7 +107,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Music"
     },
 
@@ -117,7 +117,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Music"
     },
 
@@ -127,7 +127,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Music"
     },
 
@@ -139,7 +139,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Books"
     },
 
@@ -149,7 +149,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Books"
     },
 
@@ -159,7 +159,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Books"
     },
 
@@ -169,7 +169,7 @@ export default function App() {
       text: "Batman",
       description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
       video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
-      link: "https://t.me/erroridiprezzo_offertedalweb",
+      link: "#",
       category: "Books"
     },
   ];
