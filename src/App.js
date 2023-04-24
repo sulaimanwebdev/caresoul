@@ -172,9 +172,466 @@ export default function App() {
       link: "https://t.me/erroridiprezzo_offertedalweb",
       category: "Books"
     },
-
-   
   ];
+
+  
+
+
+  let data2 = [
+    {
+      name: "Movies",
+      mainData: [
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+      ],
+    },
+
+
+
+
+
+
+    {
+      name: "Top 10 Movies",
+      mainData: [
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+      ],
+
+    },
+
+
+
+
+
+    {
+      name: "Series",
+      mainData: [
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+      ],
+
+    },
+
+
+
+
+
+
+
+
+
+    {
+      name: "Top 10 Series",
+      mainData: [
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+      ],
+
+    },
+
+
+
+
+
+
+
+
+
+    {
+      name: "Music",
+      mainData: [
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+      ],
+
+    },
+
+
+
+
+
+
+
+    {
+      name: "Top 10 Music",
+      mainData: [
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+      ],
+
+    },
+
+
+
+
+
+
+
+
+    {
+      name: "Books",
+      mainData: [
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+      ],
+
+    },
+
+
+
+
+
+    {
+      name: "Top 10 Books",
+      mainData: [
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+
+        {
+          image: "/images/cover.webp",
+          text: "Batman",
+          description: "Description of the video Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique totam earum commodi amet! Iusto porro nobis exercitationem.",
+          video: "http://media.w3.org/2010/05/sintel/trailer.mp4",
+          link: "https://t.me/erroridiprezzo_offertedalweb",
+          category: "Books"
+        },
+      ],
+
+    }
+
+
+
+
+  ]
+
   
   return (
     <div className="pl-[70px]">
@@ -188,21 +645,9 @@ export default function App() {
      <div className="w-full px-5 pb-5">
      <input type="text" placeholder='Search' className='flex items-center justify-center mx-auto max-w-full sm:max-w-[400px] w-full mt-3 bg-white px-2 py-2 rounded-md border-solid border border-blue-300 outline-blue-500' />
 
-       <div id="movies">
-       <Slider title="Movies" data={data}/>
-       </div>
+       <Slider  data2={data2}/>
 
-       <div id="series" className="mt-8">
-       <Slider title="Series" data={data}/>
-       </div>
-
-       <div id="music" className="mt-8">
-       <Slider title="Music" data={data}/>
-       </div>
-
-       <div id="books" className="mt-8">
-       <Slider title="Books" data={data}/>
-       </div>
+       
 
      </div>
     </div>
